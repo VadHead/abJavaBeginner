@@ -4,7 +4,7 @@ public class EmployeePrinter implements Printer{
 	
 	@Override
 	public void print(Employee employee) {
-		System.out.println(employee.FirstName + " " + employee.LastName);
+		System.out.println("Employee name: " + employee.getFirstName() + " " + employee.getLastName());
 	}
 	
 }

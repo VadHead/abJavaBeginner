@@ -2,7 +2,20 @@ package lecture2;
 
 public class Employee {
 	
-	public String FirstName;
-	public String LastName;
+	private String FirstName;
+	private String LastName;
+	
+	public Employee(String firstName, String lastName) {
+		FirstName = firstName;
+		LastName = lastName;
+	}
+	
+	public String getFirstName() {
+		return FirstName;
+	}
+	
+	public String getLastName() {
+		return LastName;
+	}
 	
 }
