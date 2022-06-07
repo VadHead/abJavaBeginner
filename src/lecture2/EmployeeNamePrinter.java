@@ -8,9 +8,10 @@ public class EmployeeNamePrinter implements Printer{
 			System.out.println("First name or Last name cannot be empty");
 		}
 		else {
-			
 			System.out.println("First name: " + employee.firstName);
 			System.out.println("Last name: " + employee.lastName);
+			System.out.println("Position: " + employee.position);
+			
 		}
 	}
 	
